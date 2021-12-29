@@ -5,7 +5,7 @@ in addition, you can find an explanation about how to run the whole thing.
 
 ### ****To implement the project we use on 3 classes****
 
-### **Node:**
+#### **Node:**
 
 This class represents the nodes of our graph.
 
@@ -24,7 +24,7 @@ This class represents the nodes of our graph.
 1.setters/getters.<br />
 2. equal, hash, repr - use in tests.<br />
 
-### **DiGraph<br />**
+#### **DiGraph<br />**
 This class represents the graph.<br />
 
 **Fields:**<br />
@@ -48,7 +48,7 @@ This class represents the graph.<br />
 10.all_in_edges_of_node -  return a dictionary of all the nodes connected to (into) node_id each node is represented using a pair (other_node_id, weight).<br />
 11.all_out_edges_of_node -  return a dictionary of all the nodes connected from node_id, each node is represented using a pair.<br />
 
-### **GraphAlgo<br />**
+#### **GraphAlgo<br />**
 This class represents the algorithms applicable to DiGraph.<br />
 
 **Fields:**<br />
@@ -74,55 +74,57 @@ This class represents the algorithms applicable to DiGraph.<br />
 4.BFS - see https://en.wikipedia.org/wiki/Breadth-first_search.<br />
 5.is strongly connected - check if the graph is connected- every vertex can go to all the other vertexes.<br />
 
-### ****GraphAlgo implemtion****
+## ****GraphAlgo implemtion****
 
-## ****isConnected(self):**** <br />
+#### ****isConnected(self):**** <br />
 1.Scanners the node key in the vertex dictionary.<br />
 2.Scanners the node value in the vertex dictionary.<br />
 3.check if the cur vertex is strongly connected to the other's vertexes. if there is some vertex that isn't, return false. else ' return true.<br />
 
-## ****shortest_path:****<br />
+#### ****shortest_path:****<br />
 first, we define a new list to contain the path and then check if src and dest are equals, if yes, add src value to the path list and return the list and 0. if not we checked if src and dest Exist. then we activate the Dijkstra function to get the shortest path and add the path we get to the path list. In the end, we add src to the path and reverse the path list. then we return to the path. if there is a path between src and dest the function returns the path if not the return - float('inf'), empty path list.<br />
 
-## ****TSP:****
+#### ****TSP:****
 first, define a new list to contain the path. then go over the Vertices of the graph and update visit status to false. if there is no value's in cities return an empty list. next, we define a new node as the value of the cities list in the first place and update the prev visit status to true. in addition, I add to TCP prev cities in the first place/ To the end, I go over cities size and go in the Shortest Path from prev to curr vertex, I update all the vertex I pass as visited and not go over them again.<br />
 
-## ****CenterPoint:****
+#### ****CenterPoint:****
 first, define a new dictionary - distance check if the graph is connected, if not the distance dictionary is empty. then go over Vertices value and add for every vertex its distance from all the other vertexes. The next step is to put the distance in the distance dictionary in the place of the current vertex key  And to end I check what node has the shortest path from the other by comparing the values is in the dictionary.<br />
 
-## ****Dijkstra:****
+#### ****Dijkstra:****
 Based on this https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm. To create this method we used dictionary structure and add to it all the nodes in the graph in their node key place. in addition, we update their Weight to INF their From field to None and their visit status to False.  then update src weight to 0 and put src in the dictionary.
 then while there is a vertex in the new dictionary we check if we visited if not delete it from the dictionary and go over the edges from the cur vertex.
 and made Dijkstra calculate to find the shortest path.<br />
 
 
-## ****BFS:****
+#### ****BFS:****
 Based on this https://en.wikipedia.org/wiki/Breadth-first_search. an iterative method to implement BFS. In the first node, I change the visit statue to True and add this node to the new List. and then if the List is not empty I remove the last element and go over is NeighborsNode if I do not visit some of their neighbor I change is visit status to true and add it to List.<br />
 
-## ****isStronglyConnected:**** 
+#### ****isStronglyConnected:**** 
 Used the bfs algo in recursive to validate there is a path to each node.<br />
 
-### ****Gui screenShoot****
+## ****Gui screenShoot****
 
-### **A0**
+**To implemntes the GUI we use in IGRAPH.**
+
+#### **A0**
 ![A0](https://user-images.githubusercontent.com/76403961/147682587-3f2adc46-98c4-41d8-a420-aa9460db4253.jpeg)
 
-### **A1**
+#### **A1**
 ![A1](https://user-images.githubusercontent.com/76403961/147682603-836fc650-8ff0-4839-95a3-d371ef288a4c.jpeg)
 
-### **A2**
+#### **A2**
 ![A2](https://user-images.githubusercontent.com/76403961/147682619-f991f660-dcb7-4fcb-b7e9-4d540e64a5cb.jpeg)
 
-### **A3**
+#### **A3**
 ![A3](https://user-images.githubusercontent.com/76403961/147682637-1d69bcbb-7102-415a-9253-ea0168210baa.jpeg)
 
-### **A4**
+#### **A4**
 ![A4](https://user-images.githubusercontent.com/76403961/147682650-6c105671-14fd-45ba-8da6-77afcb212a0e.jpeg)
 
-### **A5**
+#### **A5**
 ![A5](https://user-images.githubusercontent.com/76403961/147682664-c1d2cb36-1e93-4846-abcc-fbab8f7ab834.jpeg)
 
-### **T0**
+#### **T0**
 ![T0](https://user-images.githubusercontent.com/76403961/147682685-30d378ba-f568-4413-b4a9-fbcf1d6f15af.jpeg)
 
 
