@@ -158,7 +158,7 @@ class GraphAlgo(object):
         Finds the node that has the shortest distance to it's farthest node.
         :return: The nodes id, min-maximum distance
         """
-        if not self.isConnected():
+                if self.isConnected():
             distance = {}
             for node in self.graph.dict_vertices.values():
                 copyNode = self.graph.getNode(node.get_key())
@@ -176,8 +176,8 @@ class GraphAlgo(object):
                     min_weight = weight
 
             return min_key, min_weight
-
-    def plot_graph(self) -> None:
+   
+def plot_graph(self) -> None:
         """
         Plots the graph.
         If the nodes have a position, the nodes will be placed there.
