@@ -199,10 +199,7 @@ class GraphAlgo(object):
 
     def dijkstra(self, src: Node):
         """
-        Plots the graph.
-        If the nodes have a position, the nodes will be placed there.
-        Otherwise, they will be placed in a random but elegant manner.
-        @return: None
+        Based on this https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm.
          """
         dic = {}
         src.setVisit(True)
@@ -227,10 +224,7 @@ class GraphAlgo(object):
 
     def getMinWeightFromDic(self, dic):
         """
-        Plots the graph.
-        If the nodes have a position, the nodes will be placed there.
-        Otherwise, they will be placed in a random but elegant manner.
-        @return: None
+        get the min weight of node - use in Dijkstra algorithem.
         """
         minWeight = None
         for node in dic.values():
@@ -243,10 +237,7 @@ class GraphAlgo(object):
 
     def BFS(self, vertex: Node):
         """
-        Plots the graph.
-        If the nodes have a position, the nodes will be placed there.
-        Otherwise, they will be placed in a random but elegant manner.
-        @return: None
+        Based on this https://en.wikipedia.org/wiki/Breadth-first_search. an iterative method to implement BFS
          """
         vertex.setVisit(True)
         bds_queue = [vertex]
@@ -262,10 +253,7 @@ class GraphAlgo(object):
 
     def isStronglyConnected(self, key: int):
         """
-        Plots the graph.
-        If the nodes have a position, the nodes will be placed there.
-        Otherwise, they will be placed in a random but elegant manner.
-        @return: None
+         Used the bfs algo in recursive to validate there is a path to each node.
          """
         self.BFS(self.graph.getNode(key))
         for node in self.graph.get_all_v().values():
