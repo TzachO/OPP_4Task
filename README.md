@@ -1,4 +1,7 @@
 # OPP_4Task
+Name :Tal Ornan ID:209349356
+Name : Tzach Itshak Ofir ID:208062943
+
 Welcome to the OPP_4 WIKI project!
 Here we explained our implementation to the weighted and directed graph class.
 in addition, you can find an explanation about how to run the whole thing.
