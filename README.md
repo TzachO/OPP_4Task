@@ -110,25 +110,25 @@ Used the bfs algo in recursive to validate there is a path to each node.<br />
 **To implemntes the GUI we use in IGRAPH.**
 
 #### **A0**
-![A0](https://user-images.githubusercontent.com/76403961/147682587-3f2adc46-98c4-41d8-a420-aa9460db4253.jpeg)
+![image](https://user-images.githubusercontent.com/76403961/147700452-85237433-45d0-4a8e-9195-ebb78b37bba4.png)
 
 #### **A1**
-![A1](https://user-images.githubusercontent.com/76403961/147682603-836fc650-8ff0-4839-95a3-d371ef288a4c.jpeg)
+![image](https://user-images.githubusercontent.com/76403961/147700480-26f72107-a245-4b9b-b97d-3e5e7ae66768.png)
 
 #### **A2**
-![A2](https://user-images.githubusercontent.com/76403961/147682619-f991f660-dcb7-4fcb-b7e9-4d540e64a5cb.jpeg)
+!![image](https://user-images.githubusercontent.com/76403961/147700529-d8fa62bd-3222-4a05-bda1-2eecc0b2db82.png)
 
 #### **A3**
-![A3](https://user-images.githubusercontent.com/76403961/147682637-1d69bcbb-7102-415a-9253-ea0168210baa.jpeg)
+![image](https://user-images.githubusercontent.com/76403961/147700560-eef07063-5d06-44be-9b99-d7976779f241.png)
 
 #### **A4**
-![A4](https://user-images.githubusercontent.com/76403961/147682650-6c105671-14fd-45ba-8da6-77afcb212a0e.jpeg)
+![image](https://user-images.githubusercontent.com/76403961/147700582-1326d5fe-3de9-4145-b670-01d358094eac.png)
 
 #### **A5**
-![A5](https://user-images.githubusercontent.com/76403961/147682664-c1d2cb36-1e93-4846-abcc-fbab8f7ab834.jpeg)
+![image](https://user-images.githubusercontent.com/76403961/147700614-2dff80e8-a759-40a8-a038-33df8849f8d9.png)
 
 #### **T0**
-![T0](https://user-images.githubusercontent.com/76403961/147682685-30d378ba-f568-4413-b4a9-fbcf1d6f15af.jpeg)
+![image](https://user-images.githubusercontent.com/76403961/147700360-5c8cfd04-9716-4f8d-a77d-14712c707152.png)
 
 
 
