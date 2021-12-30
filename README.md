@@ -2,9 +2,8 @@
 Name : Tal Ornan ID: 209349356<br />
 Name : Tzach Itshak Ofir ID: 208062943<br />
 
-Welcome to the OPP_4 WIKI project!
+Welcome to the OPP_4  project!
 Here we explained our implementation to the weighted and directed graph class.
-in addition, you can find an explanation about how to run the whole thing.
 
 ### ****To implement the project we use on 3 classes****
 
